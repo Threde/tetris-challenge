@@ -8,6 +8,15 @@
       - Bonus if you can recreate the
         background pattern for the parent
       */
+      .stage {
+        border: 8px solid #7888ab;
+        border-left: 4px solid #7888ab;
+        border-top-style: hidden;
+        width: 399px;
+        height: 318px;
+        background-color: #d9edfa;
+      }
+
       .block {
         display: inline-block;
         width: 30px;
@@ -23,11 +32,182 @@
         border-left:  solid #d00004;
         background-color: #fe0100;
       }
+      .orange {
+        border: 5px solid;
+        border-top:  solid #fa9632;
+        border-right:  solid #fa9632;
+        border-bottom:  solid #c26910;
+        border-left:  solid #c26910;
+        background-color: #ff6600;
+      }
+      .yellow {
+        border: 5px solid;
+        border-top:  solid #fdffa3;
+        border-right:  solid #fdffa3;
+        border-bottom:  solid #ffc803;
+        border-left:  solid #ffc803;
+        background-color: #ffff00;
+      }
+      .green {
+        border: 5px solid;
+        border-top:  solid #69ff66;
+        border-right:  solid #69ff66;
+        border-bottom:  solid #03cf00;
+        border-left:  solid #03cf00;
+        background-color: #00ff00;
+      }
+      .blue {
+        border: 5px solid;
+        border-top:  solid #96fffd;
+        border-right:  solid #96fffd;
+        border-bottom:  solid #329dc7;
+        border-left:  solid #329dc7;
+        background-color: #66cfff;
+      }
+      .purple {
+        border: 5px solid;
+        border-top:  solid #c66ef5;
+        border-right:  solid #c66ef5;
+        border-bottom:  solid #9304c7;
+        border-left:  solid #9304c7;
+        background-color: #c803ff;
+      }
+      .clear {
+        width: 36px;
+        height: 36px;
+        border: none;
+        outline: none;
+      }
+      #nth-col {
+        width: 76px;
+        display: inline-block;
+        vertical-align:text-bottom;
+      }
     </style>
+    <style type "text/css">
+    <!--
+    /* @group Blink */
+    .blink {
+    	-webkit-animation: blink .75s linear infinite;
+    	-moz-animation: blink .75s linear infinite;
+    	-ms-animation: blink .75s linear infinite;
+    	-o-animation: blink .75s linear infinite;
+    	 animation: blink .75s linear infinite;
+    }
+    @-webkit-keyframes blink {
+    	0% { opacity: 1; }
+    	50% { opacity: 1; }
+    	50.01% { opacity: 0; }
+    	100% { opacity: 0; }
+    }
+    @-moz-keyframes blink {
+    	0% { opacity: 1; }
+    	50% { opacity: 1; }
+    	50.01% { opacity: 0; }
+    	100% { opacity: 0; }
+    }
+    @-ms-keyframes blink {
+    	0% { opacity: 1; }
+    	50% { opacity: 1; }
+    	50.01% { opacity: 0; }
+    	100% { opacity: 0; }
+    }
+    @-o-keyframes blink {
+    	0% { opacity: 1; }
+    	50% { opacity: 1; }
+    	50.01% { opacity: 0; }
+    	100% { opacity: 0; }
+    }
+    @keyframes blink {
+    	0% { opacity: 1; }
+    	50% { opacity: 1; }
+    	50.01% { opacity: 0; }
+    	100% { opacity: 0; }
+    }
+    /* @end */
+    -->
+    </style>
+
   </head>
-  <body style="background: url(http://www.echalk.co.uk/amusements/Games/Tetris/shareIcons/shareIcon.jpg) no-repeat center">
+  <body><!-- style="background: url(http://www.echalk.co.uk/amusements/Games/Tetris/shareIcons/shareIcon.jpg) no-repeat center"> -->
+    <div class="stage">
+      <div id="nth-col">
+          <div class="block clear"></div>
+          <div class="block purple"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block red"></div>
+          <div class="block red"></div>
+          <div class="block clear"></div>
+          <div class="block green" ></div>
+          <div class="block green"></div>
+          <div class="block clear"></div>
+      </div>
 
-    <div class="block red"></div>
+      <div id="nth-col">
+        <div id="orng-col-2">
+          <div class="block purple"></div>
+          <div class="block purple"></div>
+          <div class="block clear"></div>
+          <div class="block purple"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block clear"></div>
+          <div class="block orange"></div>
+          <div class="block red"></div>
+          <div class="block orange"></div>
+          <div class="block red"></div>
+        </div>
+      </div>
 
+      <div id="nth-col">
+        <div class="block clear"></div>
+        <div class="block blue"></div>
+        <div class="block blue"></div>
+        <div class="block blue"></div>
+        <div class="block red"></div>
+        <div class="block green"></div>
+        <div class="block red"></div>
+        <div class="block red"></div>
+      </div>
+
+      <div id="nth-col">
+        <div class="block blue"></div>
+        <div class="block clear"></div>
+        <div class="block green"></div>
+        <div class="block clear"></div>
+        <div class="block yellow"></div>
+        <div class="block yellow"></div>
+        <div class="block red"></div>
+        <div class="block yellow"></div>
+      </div>
+
+      <div id="nth-col">
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block clear"></div>
+        <div class="block orange"></div>
+        <div class="block clear"></div>
+        <div class="block orange"></div>
+        <div class="block clear"></div>
+        <div class="block orange"></div>
+        <div class="block blue"></div>
+        <div class="block blue"></div>
+        <div class="block green"></div>
+        <div class="block green"></div>
+      </div>
+    </div>
+    <p justify="center" class="tab blink">    WORLD CLASS TETRIS SCREENSHOT, BITCH!</p>
   </body>
 </html>
